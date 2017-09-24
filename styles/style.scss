@@ -1,0 +1,41 @@
+@import './components/_icons.scss';
+
+html {
+	font-size: 10px;
+}
+
+body {
+	background-image: linear-gradient(-180deg, rgba(0, 0, 0, 0.85) 8%, rgba(60, 60, 60, 0.65) 43%, rgba(216, 216, 216, 0.00) 100%), url(../images/whales_small.jpg);	
+	background-color: #222;
+	background-size: cover;
+	background-position: right 90%; 
+	height: 100vh;	
+	overflow: hidden;
+	width: 100%;
+}
+
+// BG position for media query shoud be 75%
+
+header {
+	margin: 10rem auto;
+	display: flex;	
+	justify-content: center;
+
+	@media (max-width: 736px) {
+		margin-top: 8rem;
+		margin-bottom: 5rem;
+	}	
+}
+
+#logo {
+	margin-left: 2rem;
+	margin-right: 2rem;
+	height: 6rem;
+	color: white;
+	align-self: center;
+
+	@media (max-width: 736px) {
+		width: 85%;
+		// background: #222;
+	}
+}

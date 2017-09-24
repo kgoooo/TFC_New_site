@@ -1,0 +1,52 @@
+// BASE ICON STYLING
+i {
+	margin: 1.5rem 1rem;
+	transition: all ease-in-out 320ms;
+	cursor: pointer;
+}
+// DIV CONTAINING ICONS
+.icons {
+	text-align: center;
+	color: darken(#DDDDDD, 5%);
+}
+
+// TOP ROW OF BIGGER ICONS
+.big-icons {
+	font-size: 4.5rem;
+}
+// BOTTOM ROW OF SMALLER SOCIAL ICONS
+.small-icons {
+	font-size: 3.5rem;
+}
+
+//  SOCIAL MEDIA HOVERS
+.twitter:hover,
+.twitter:active {
+	color: #02acee;
+}
+
+.insta:hover,
+.insta:active {
+	color: #f56040;
+}
+
+.bandcamp:hover,
+.bandcamp:active {
+	color: #629aa9;
+}
+
+.googleP:hover {
+	color: #dd4b39;
+}
+
+.soundCl:hover {
+	color: #ff8800;
+}
+
+.face:hover {
+	color: #3b5998;
+}
+
+.tube:hover {
+	color: #ff0000;
+}
