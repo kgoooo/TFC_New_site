@@ -4,10 +4,17 @@ i {
 	transition: all ease-in-out 320ms;
 	cursor: pointer;
 }
+
+
 // DIV CONTAINING ICONS
 .icons {
 	text-align: center;
 	color: darken(#DDDDDD, 5%);
+
+	a:link,
+	a:visited {
+		color: darken(#DDDDDD, 5%);
+	}
 }
 
 // TOP ROW OF BIGGER ICONS
@@ -35,18 +42,22 @@ i {
 	color: #629aa9;
 }
 
-.googleP:hover {
+.googleP:hover,
+.googleP:active {
 	color: #dd4b39;
 }
 
-.soundCl:hover {
+.soundCl:hover,
+.soundCl:active {
 	color: #ff8800;
 }
 
-.face:hover {
+.face:hover,
+.face:active {
 	color: #3b5998;
 }
 
-.tube:hover {
+.tube:hover,
+.tube:active {
 	color: #ff0000;
 }
